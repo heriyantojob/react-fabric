@@ -1,0 +1,88 @@
+    /* .content-design-project-timeline */
+.content-design-project-timeline{
+    z-index: 2;
+}
+.content-design-project-timeline .item-container{
+    display: flex;
+
+
+}
+.content-design-project-timeline .item-row {
+  
+    margin:0px 10px;
+
+    border: 1px solid black;
+
+}
+
+    /* page now */
+    .content-design-project-timeline .item-row.item-now {
+  
+      transform: scale(1.2);
+      
+    }
+
+    .content-design-project-timeline .item-row.item-now .image{
+      opacity: 0.3;
+    }
+
+
+  
+.content-design-project-timeline .image {
+    opacity: 1;
+    display: block;
+
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .content-design-project-timeline .menu {
+    transition: .5s ease;
+ 
+    position: relative;
+
+ 
+    text-align: center;
+  }
+
+    .content-design-project-timeline .menu-list{
+        display: none;
+        background:white;
+        color: #000000;
+        position: absolute;     
+        font-size:  1rem;
+        bottom :  100%;
+ 
+        width: auto;
+    }
+
+    .content-design-project-timeline .menu:hover   .menu-list {
+      display: block;
+    }
+    .content-design-project-timeline .menu-list .menu-list-item{
+      padding: 10px;
+    }
+    .content-design-project-timeline .menu-list .menu-list-item:hover{
+      background-color:#ddd;
+      cursor: pointer;
+      
+    }
+
+    
+    
+  .content-design-project-timeline .item-row:hover .image {
+    opacity: 0.3;
+  }
+  
+  .content-design-project-timeline .item-row:hover .menu {
+    opacity: 1;
+  }
+  
+  .content-design-project-timeline.text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+

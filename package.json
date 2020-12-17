@@ -1,0 +1,54 @@
+{
+  "name": "design-front",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/react-fontawesome": "^0.1.9",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "css.escape": "^1.5.1",
+    "fabric": "^4.0.0-beta1",
+    "normalize.css": "^8.0.1",
+    "react": "^16.13.0",
+    "react-color": "^2.18.1",
+    "react-dom": "^16.13.0",
+    "react-lazyload": "^2.6.7",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "react-tabs": "^3.1.0",
+    "simplebar-react": "^2.2.0",
+    "styled-components": "^5.1.0",
+    "uuid": "^8.0.0"
+  },
+  "scripts": {
+    "start": "npm run watch:css &&   react-scripts start",
+    "build": "npm run build:css &&   react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build:css": "postcss src/assets/tailwind/tailwind.config.css -o src/assets/tailwind/main.css",
+    "watch:css": "postcss src/assets/tailwind/tailwind.config.css -o src/assets/tailwind/main.css"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.4",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0"
+  }
+}

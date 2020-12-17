@@ -1,0 +1,121 @@
+/*
+color blue #1976D2
+template box color 494B6
+2F3147
+212337
+
+   */
+.container-design{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    
+}
+
+/*========================= header */
+.header-design{
+    font-size: 1.5rem;
+    width: 100%;
+    background-color: #212337;
+    box-sizing: border-box;
+    padding: 10px, 20px,10px,20px;
+    color: #E1E2EA;
+    padding: 10px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.46);
+}
+
+
+/* ========================= Content*/
+.content-design{
+    width: 100%;
+    background-color: #000000;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+/* ========================= Content toolbox*/
+.content-design-toolbox{
+    background-color: #2F3147;
+   
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 1rem;
+
+}
+    .content-design-toolbox-item{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10x;
+        padding: 10px;
+        cursor: pointer;
+       
+
+    }
+        .content-design-toolbox-item-active{
+            background-color:#1976D2;
+        }
+    .content-design-toolbox-item img{
+       width: 1.5rem;
+       margin: auto;
+       
+
+    }
+    .content-design-toolbox-item-name{
+        margin: auto;
+ 
+     }
+ 
+
+    .content-design-toolbox-item:hover {
+        background-color:#1976D2;
+
+    }
+/* ========================= Content template*/
+
+.content-design-template{
+    background-color: #494B66;
+    /*height: 100%;*/
+    width: 240px;
+
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+}
+
+/* ================================content project */
+.content-design-project{
+    display: flex;
+    height: 100%;
+    flex: 1;
+    flex-direction: column;
+
+    
+}
+    .content-design-project-canvas{
+        background-color: #161724;
+        flex: 1;
+    }
+    .content-design-project-timeline{
+        height: 100px;
+        padding: 10px;
+        background-color:#212337;
+        
+    }
+
+
+
+   
+.content-design-sidebar{
+    width: 100px;
+    height: 100%;
+    background-color: #494B66;
+
+    
+}

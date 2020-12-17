@@ -1,0 +1,15 @@
+.canvas-container{
+    position: relative;
+
+}
+.canvas-object{
+    background-color: #161724;
+    position: absolute;
+    top: 0;
+    left: 0;
+ 
+    z-index: 0;
+}
+.canvas-object-now{
+    z-index: 1;
+}
