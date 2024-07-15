@@ -27,9 +27,9 @@ function App() {
 
       <Switch>
      
-        <Route path="/design"  exact component={DesignPages} />     
+         
         <Route path="/coba"  component={CobaPages} />
-        <Route path="/"   component={FrontPages} />        
+        <Route path="/"   component={DesignPages} />        
       </Switch>
     
   </Router>
